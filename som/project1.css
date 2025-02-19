@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+#data-display {
+  margin-bottom: 20px;
+}
+
+#data-display table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data-display th, #data-display td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+#add-form {
+  margin-bottom: 20px;
+}
+
+#add-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#add-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#add-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

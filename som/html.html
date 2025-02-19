@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Database Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Database Management</h1>
+
+  <div id="data-display">
+    <!-- Data table will be loaded here -->
+  </div>
+
+  <div id="add-form">
+    <h2>Add New Record</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <!-- Add other input fields for different columns -->
+      <button type="submit">Add</button>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script> </body>
+</html>
+
+
+*CSS (style.css):*
+
+css
+body {
+  font-family: sans-serif;
+}
+
+#data-display {
+  margin-bottom: 20px;
+}
+
+#data-display table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data-display th, #data-display td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+#add-form {
+  margin-bottom: 20px;
+}
+
+#add-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#add-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#add-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,23 @@
+import java.awt.*;
+class myapp extends frame implements ActionListener{
+public myapp()
+{
+super("someas");
+setSize(1000,600);
+setLayout(null);
+setVisible(true);
+
+this.addWindowListener(new WindowAdapter(){
+public void windowClosing(WindowEvent we)
+{
+System.exit(0);
+}
+});
+}
+
+public class app{
+public static void main(String [] args)
+{
+myapp f=new myapp();
+}
+}
